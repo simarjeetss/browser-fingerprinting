@@ -1,0 +1,24 @@
+{
+  "name": "hw6",
+  "version": "1.0.0",
+  "description": "WSU Web Security Homework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm run lint",
+    "watch": "nodemon --ext js,json,css,ejs,md -- --no-open"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "minimist": "^1.2.5",
+    "open": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "snazzy": "^9.0.0",
+    "standard": "^16.0.4",
+    "standard-markdown": "^7.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
